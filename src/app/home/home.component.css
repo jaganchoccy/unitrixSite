@@ -1,0 +1,21 @@
+ p,h1,h2,h3,h4,h5{
+    margin: 0px !important;
+}
+
+.imgtop{
+    margin-top: 11% !important;
+    margin-bottom: 0px;
+}
+h4,h5{
+    font-weight: 300;
+}
+.qoutes{
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+#logo{
+    width: 88%;
+    padding-left: 22%;
+
+}
+

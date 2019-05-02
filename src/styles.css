@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.uniWhiteBtn {
+    border: .5px solid #2168f3;
+    padding: 6px 9px;
+    border-radius: 7px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #2168f3;
+    height: 28px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.3);
+}
+.uniRedBtn{
+    letter-spacing: 1px;
+    border: .5px solid #2168f3;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 26px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 12px;
+    height: 28px;
+    background-color: #2168f3;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.uniRedBtn:hover{
+    background-color: #fff;
+    color: #2168f3;
+}

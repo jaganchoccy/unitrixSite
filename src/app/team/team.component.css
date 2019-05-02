@@ -1,0 +1,17 @@
+#logo{
+    width: 88%;
+    padding-left: 22%;
+}
+.teamContent {
+    margin-top: 8% !important;
+    letter-spacing: 1px;
+}
+
+.fa,.fas {
+    font-size: 24px;
+    margin-right: 8px;
+    margin-bottom: 1%;
+}
+.teamTITLE {
+    font-weight: 600;
+}
