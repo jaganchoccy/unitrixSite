@@ -18,14 +18,14 @@
     border: .5px solid #2168f3;
     cursor: pointer;
     font-weight: 600;
-    padding: 9px 16px;
+    padding: 11px 26px;
     border-radius: 26px;
     color: #fff;
     line-height: 25px;
     font-size: 12px;
     height: 28px;
     background-color: #2168f3;
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.2), 0 2px 3px 0 rgba(0,0,0,.19);
 }
 .uniRedBtn:hover{
     background-color: #fff;

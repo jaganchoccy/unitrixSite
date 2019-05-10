@@ -5,17 +5,31 @@
 .imgtop{
     margin-top: 11% !important;
     margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 h4,h5{
     font-weight: 300;
 }
 .qoutes{
-    font-size: 23px;
-    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 33px;
+    letter-spacing: 1px;
+    padding: 0 300px;
 }
 #logo{
-    width: 88%;
-    padding-left: 22%;
+    width: 32%;
+    margin-top: 10%;
+}
 
+.helpBtn{
+    background: #2168f3;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 10px 10px;
+    line-height: 2px;
+    color: #fff;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
 }
 

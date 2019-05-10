@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
 			
         particles: {
           number: {
-              value: 30,
+              value: 15,
               "density": {
                 "enable": true,
                 "value_area": 1000
@@ -58,10 +58,10 @@ export class HomeComponent implements OnInit {
               }
           },
           move:{
-              speed: 2
+              speed: 3
           }, 
           size:{
-              value:4
+              value:5
           }
           }
 
