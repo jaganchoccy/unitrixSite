@@ -12,7 +12,7 @@ h4,h5{
 }
 .qoutes{
     font-weight: 300;
-    font-size: 33px;
+    font-size: 23px;
     letter-spacing: 1px;
     padding: 0 300px;
 }
@@ -29,7 +29,33 @@ h4,h5{
     line-height: 2px;
     color: #fff;
     position: fixed;
+    cursor: pointer;
     bottom: 15px;
     right: 15px;
 }
 
+.weBtn{
+    padding: 6px 10px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 2%;
+}
+.border{
+    border: 1px solid #d1d1d1;
+    padding: 20px 0 0 0;
+    margin: 0px 60px;
+    border-radius: 4px;
+}
+.we{
+    margin-top: -43px !important;
+    width: 18%;
+    background: #fff;
+    margin-bottom: 2% !important;
+    text-align: center;
+    margin-left: 42% !important;
+}
+.weContent{
+    color: #818188;
+    font-weight: 300;
+    padding-top: 6px;
+}
