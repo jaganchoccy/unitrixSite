@@ -18,6 +18,7 @@ import { PhotoZingComponent } from './photo-zing/photo-zing.component';
 import { TypingAnimationDirective } from 'angular-typing-animation';
 
 import { ParticlesModule } from 'angular-particle';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ParticlesModule } from 'angular-particle';
     PortfolioComponent,
     TeamComponent,
     PhotoZingComponent,
-    TypingAnimationDirective
+    TypingAnimationDirective,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

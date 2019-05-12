@@ -15,7 +15,7 @@ export class TeamComponent implements OnInit {
 
   ngOnInit() {
     this.style = {
-      'position': 'fixed',
+      'position': 'absolute',
       'width': '100%',
       'height': '100%',
       'z-index': -1,
