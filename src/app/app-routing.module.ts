@@ -5,6 +5,8 @@ import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
 import { PhotoZingComponent } from './photo-zing/photo-zing.component';
+import { StartedComponent } from './started/started.component';
+
 
 const routes: Routes = [
   {                              
@@ -31,6 +33,10 @@ const routes: Routes = [
   {
     path: 'Photo-Outsourcing',
     component: PhotoZingComponent
+  },
+  {
+    path: 'Get-started',
+    component: StartedComponent
   }
 
 ];

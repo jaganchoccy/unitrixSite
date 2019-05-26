@@ -15,3 +15,11 @@
 .teamTITLE {
     font-weight: 600;
 }
+.styleTxt{
+    font-family: 'Aclonica';
+    font-size: 30px;
+}
+.icon .fas{
+    font-size: 15px;
+    color: rgb(157, 156, 156);
+}

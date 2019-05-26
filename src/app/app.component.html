@@ -1,3 +1,10 @@
 <app-header></app-header>
-<router-outlet></router-outlet>
+<!-- help button -->
+<div class="btn-floating  pulse helpBtn">
+    <i class="material-icons">headset_mic</i>
+</div>
+<div class="myRoute" (scroll)="scrollHandler($event)">
+    <router-outlet></router-outlet>
+</div>
+
 <app-footer></app-footer>

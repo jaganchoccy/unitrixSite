@@ -1,0 +1,8 @@
+.helpBtn{
+    background: #2168f3;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    bottom: 15px;
+    right: 10px;
+}

@@ -19,6 +19,8 @@ import { TypingAnimationDirective } from 'angular-typing-animation';
 
 import { ParticlesModule } from 'angular-particle';
 import { FooterComponent } from './footer/footer.component';
+import { StartedComponent } from './started/started.component';
+
 
 
 @NgModule({
@@ -31,7 +33,8 @@ import { FooterComponent } from './footer/footer.component';
     TeamComponent,
     PhotoZingComponent,
     TypingAnimationDirective,
-    FooterComponent
+    FooterComponent,
+    StartedComponent,
   ],
   imports: [
     BrowserModule,

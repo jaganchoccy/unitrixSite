@@ -13,6 +13,9 @@
     height: 28px;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.3);
 }
+.letter-spacing{
+    letter-spacing: 1px;
+}
 .uniRedBtn{
     letter-spacing: 1px;
     border: .5px solid #2168f3;
@@ -30,4 +33,25 @@
 .uniRedBtn:hover{
     background-color: #fff;
     color: #2168f3;
+}
+.uniRedBtn:focus{
+    outline: none
+}
+p,h1,h2,h3,h4,h5{
+    margin: 0px !important;
+}
+.border{
+    border: 1px solid #d1d1d1;
+    padding: 20px 0 0 0;
+    margin: 0px 60px !important;
+    border-radius: 4px;
+}
+.we{   
+    margin-top: -43px !important;
+    width: 18%;
+    background: #fff;
+    font-weight: 300;
+    margin-bottom: 2% !important;
+    text-align: center;
+    margin-left: 42% !important;
 }

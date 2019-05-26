@@ -5,6 +5,15 @@
     position: absolute;
     width: 3%;
 }
+.header{
+    height: 62px;
+    margin: 0px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #ffffff;
+}
 .navName{
     padding: 4px 17px;
 }
@@ -28,3 +37,72 @@
 .TextBold{
     color: #2168f3;
 }
+.ServiceData{
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: right;
+    top: 55px;
+    width: 80%;
+    padding: 17px 23px 17px 23px;
+    border: .5px solid #d9d5d5;
+    right: 8%;
+    border-radius: 4px;
+}
+.ServiceData li:hover{
+    padding: 2px 10px;
+    background: #2168f3;
+    color: #fff;
+    border: 1px solid #2168f3;
+    border-radius: 4px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.ServiceData li {
+    margin: 8px 0;
+    padding: 2px 10px;
+}
+.content{
+    padding: 15px 20px;
+    margin-top: 1%;
+}
+.content:hover{
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+.content:focus { outline: none; }
+.headService{
+    font-size: 14px;
+    padding-left: 21px;
+    margin: 0px;
+    padding-top: 3px;
+}
+.headerService{
+    letter-spacing: 0px !important;
+}
+.headerService:hover .ServiceData{
+    display: inherit;
+}
+/* this CS forms the triangles */
+.ServiceData:after,
+.ServiceData:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+
+/* this border color controlls the color of the triangle (what looks like the fill of the triangle) */
+.ServiceData:after {
+    top: -16px;
+    border-color: transparent transparent #2168f3 transparent;
+    border-width: 8px;
+    left: calc(100% - 513px);
+}
+
