@@ -1,6 +1,10 @@
 <app-header></app-header>
 <!-- help button -->
-<div class="btn-floating  pulse helpBtn">
+<div class="btn-floating  pulse helpBtn" mz-button mz-tooltip
+[tooltip]="'Chat with us <b class=\'red-text\'>live</b>'"
+[position]="'top'"
+[html]="true"
+[delay]="10">
     <i class="material-icons">headset_mic</i>
 </div>
 <div class="myRoute" (scroll)="scrollHandler($event)">

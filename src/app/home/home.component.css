@@ -16,12 +16,15 @@ h4,h5{
     width: 32%;
     margin-top: 14%;
 }
+.serviceB:focus{
+    outline: none
+}
 p{
     font-weight: 300;
 }
 .at{
     padding: 0 11rem;
-    font-size: 17px;
+    font-size: 15px;
 }
 .webContent{
     padding: 0 14rem;

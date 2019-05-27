@@ -4,7 +4,26 @@
     <p>Get your photo & video shoots around the world in 24h</p></span>
 </div>
 
-<div class="row center"> <span class="uniRedBtn">Order Now</span></div>
+<div class="row center"> <span class="uniRedBtn" (click)="bottomSheetModal.openModal()" >Order Now</span></div>
+
+<mz-modal #bottomSheetModal [fixedFooter]="true" [bottomSheet]="true" [options]="modalOptions">
+  <mz-modal-header>
+    <h5 class="right-align">Contact Details</h5>
+  </mz-modal-header>
+  <mz-modal-content>
+    <div class="row">
+      <p class="styleTxt">PhotoZing</p>
+      <ul class="icon">
+          <li><i class="fas fa-address-book"></i> +91 962-977-7100</li>
+          <li><i class="fas fa-mail-bulk"></i> dhanushkodi95@gmail.com</li>
+        </ul>
+</div>
+  </mz-modal-content>
+  <mz-modal-footer>
+    
+    <button mz-button [flat]="true" mz-modal-close>Close</button>
+  </mz-modal-footer>
+</mz-modal>
 
 <div class="row quality center">
   <h2>A tailor-made service :<span style="color: #44b3c6;"> simple</span> & <span style="color:#c3668a;"> effective</span> </h2>

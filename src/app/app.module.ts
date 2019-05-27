@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MzSidenavModule ,MzButtonModule } from 'ngx-materialize';
+import { MzSidenavModule ,MzButtonModule, MzTooltipModule, MzModalModule ,MzSelectModule } from 'ngx-materialize';
 
 import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -38,10 +39,14 @@ import { StartedComponent } from './started/started.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MzSidenavModule,
+    MzSelectModule,
+    MzModalModule,
     MzButtonModule,
+    MzTooltipModule,
     ParticlesModule
   ],
   providers: [],
