@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
                   }
           },
           color: {
-              value: '#000000'
+              value: '#9e9e9e'
           },
           shape: {
               type: 'polygon',
@@ -61,7 +61,7 @@ export class HomeComponent implements OnInit {
               speed: 3
           }, 
           size:{
-              value:5
+              value:4
           }
           }
 
