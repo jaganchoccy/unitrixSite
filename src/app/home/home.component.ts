@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
 			
         particles: {
           number: {
-              value: 20,
+              value: 10,
               "density": {
                 "enable": true,
                 "value_area": 1000
@@ -52,7 +52,7 @@ export class HomeComponent implements OnInit {
             }},
            
           opacity:{
-              value: 1,
+              value: 0.5,
               "anim": {
                 "enable": false,
               }

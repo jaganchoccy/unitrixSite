@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: "AIzaSyD63_Bi6swQUgKT_JQUlCCHiG-lXf-btmI",
+    authDomain: "unitrix-tec.firebaseapp.com",
+    databaseURL: "https://unitrix-tec.firebaseio.com",
+    projectId: "unitrix-tec",
+    storageBucket: "unitrix-tec.appspot.com",
+    messagingSenderId: "515792541705",
+    appId: "1:515792541705:web:051e2d6f85fd74c6"
+  }
 };
 
 /*

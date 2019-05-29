@@ -1,5 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { AngularFireModule } from 'angularfire2';
+//import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFirestore } from 'angularfire2/firestore';
+import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MzSidenavModule ,MzButtonModule, MzTooltipModule, MzModalModule ,MzSelectModule } from 'ngx-materialize';
+import { MzSidenavModule ,MzButtonModule, MzTooltipModule, MzModalModule , MzSelectModule } from 'ngx-materialize';
 
 import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -40,16 +45,19 @@ import { StartedComponent } from './started/started.component';
   imports: [
     BrowserModule,
     HttpClientModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MzSidenavModule,
     MzSelectModule,
     MzModalModule,
+    AngularFireModule.initializeApp(environment.firebase, 'unitrix'),
+    
     MzButtonModule,
     MzTooltipModule,
     ParticlesModule
   ],
-  providers: [],
+  providers: [AngularFirestore],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

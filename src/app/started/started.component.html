@@ -1,58 +1,73 @@
 <div class="row started" style="padding-top:5%">
-  <img src="../../assets/images/web-application.jpg" style="width: 100%;
-  position: absolute;
-  height: 590px;">
-  <div class="col s3">
-    
-  </div>
-  <div class="col s6 card z-depth-5" style="padding: 0 40px;border-radius: 8px;">
-           <h5 class="center" style="font-weight: 300;padding-top: 16px;">Project Details / Queries</h5>
-           <div class="row">
-                <div class="input-field col s6">
-                        
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">First Name</label>
+  
+  <div class="col s6" style="padding: 0px 40px;border-radius: 6px;">
+           <h5 class="center" style="padding-bottom: 5%;font-weight: 300;">Register</h5>
+           <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+              <div class="col s6">
+                  <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                      <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                          <div *ngIf="f.firstName.errors.required">First Name is required</div>
                       </div>
-                <div class="input-field col s6">
-                            
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Last Name</label>
-                          </div>
-           </div>
-           <div class="input-field row">
-                <input id="email" type="email" class="validate">
-                <label for="email">Email</label>
-            </div>
-            <mz-select-container>
-              <select mz-select
-                id="options-select"
-                [placeholder]="'Choose Your Service'"
-              >
-              <option value="1">Web Development</option>
-              <option value="2">Desktop Application</option>
-              <option value="3">Mobile Apps</option>
-              <option value="4">Search Engine Optimization</option>
-              <option value="5">Ecommerce</option>
-              <option value="6">Firebase</option>
-              <option value="7">UX/Wordpress</option>
-                
-              </select>
-            </mz-select-container>
-            <div class="input-field row">
-                   
-                    <input id="icon_telephone" type="tel" class="validate">
-                    <label for="icon_telephone">Telephone</label>
                   </div>
-                  
-            
-                  <div class="row">
-                        <div class="input-field col s12">
-                          <textarea id="textarea1" class="materialize-textarea"></textarea>
-                          <label for="textarea1">Your message</label>
-                        </div>
+              </div>
+              <div class="col s6">
+                  <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                      <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                          <div *ngIf="f.lastName.errors.required">Last Name is required</div>
                       </div>
-            
-            <div class="center" style="margin-bottom:4%;"><span class="uniRedBtn">Submit</span></div>
-  </div>
-  <div class="col s3"></div>
+                  </div>
+              </div>
+              
+                          <div class="form-group col s12">
+                              <label>Email</label>
+                              <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                  <div *ngIf="f.email.errors.required">Email is required</div>
+                                  <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                              </div>
+                          </div>
+                          <div class="form-group col s12">
+                              <mz-select-container>
+                                  <select mz-select
+                                  formControlName="select" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.select.errors }"
+                                    id="options-select"
+                                    [placeholder]="'......'"
+                                    [label]="'Choose Your Service'">
+                                    
+                                    <option value="1">Web Development</option>
+                                    <option value="2">Desktop Application</option>
+                                    <option value="3">Mobile Apps</option>
+                                    <option value="4">Search Engine Optimization</option>
+                                    <option value="5">Ecommerce</option>
+                                    <option value="6">Firebase</option>
+                                    <option value="7">UX/Wordpress</option>
+                                    
+                                  </select>
+                                </mz-select-container>
+                                <div *ngIf="submitted && f.select.errors" class="invalid-feedback">
+                                    <div *ngIf="f.select.errors.required">Service is required</div>
+                                </div>
+                          </div>
+      
+                          <div class="form-group col s12">
+                              <label>Your Message</label>
+                              <input type="text" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                              <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                                  <div *ngIf="f.password.errors.required">Message is required</div>
+                                  <div *ngIf="f.password.errors.minlength">Message must be at least 10 characters</div>
+                              </div>
+                          </div>
+                          <div class="form-group center">
+                              <button [disabled]="loading" class="uniRedBtn" style="line-height: 0px;
+                              padding: 17px 27px;">Submit</button>
+                          </div>
+                      </form>
+          </div>
+          <div class="col s6" style="padding: 0px;">
+              <img src="../../assets/images/start.jpg" style="width: 100%;">
+          </div>
 </div>
