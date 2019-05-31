@@ -6,6 +6,8 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFirestore } from 'angularfire2/firestore';
 import { environment } from '../environments/environment';
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -14,7 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MzSidenavModule ,MzButtonModule, MzTooltipModule, MzModalModule , MzSelectModule } from 'ngx-materialize';
+import { MzSidenavModule,MzButtonModule,MzSwitchModule,MzCollapsibleModule, MzTooltipModule,MzNavbarModule, MzModalModule , MzSelectModule } from 'ngx-materialize';
 
 import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -26,6 +28,8 @@ import { TypingAnimationDirective } from 'angular-typing-animation';
 import { ParticlesModule } from 'angular-particle';
 import { FooterComponent } from './footer/footer.component';
 import { StartedComponent } from './started/started.component';
+
+
 
 
 
@@ -45,10 +49,14 @@ import { StartedComponent } from './started/started.component';
   imports: [
     BrowserModule,
     HttpClientModule,
+    
     ReactiveFormsModule,
+    MzSwitchModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MzSidenavModule,
+    MzNavbarModule,
+    MzCollapsibleModule,
     MzSelectModule,
     MzModalModule,
     AngularFireModule.initializeApp(environment.firebase, 'unitrix'),

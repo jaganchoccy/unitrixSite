@@ -9,10 +9,13 @@ import { Observable } from 'rxjs/Observable';
 export class SubmitService {
   submitCollection: AngularFirestoreCollection<Submit>;
   submit: Observable<any[]>;
-  itemDoc: AngularFirestoreDocument<Submit>;
+  submitDoc: AngularFirestoreDocument<Submit>;
 
   constructor(public db: AngularFirestore) { 
     this.submit = this.db.collection('submit').valueChanges();
+
+    this.submitCollection = db.collection<Submit>('submit');
+    
   }
 
   getSubmit(){

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MzModalModule } from 'ngx-materialize'
 
 @Component({
   selector: 'app-header',

@@ -25,6 +25,8 @@
     "angularfire2": "^5.1.3",
     "core-js": "^2.5.4",
     "firebase": "^6.0.4",
+    "ng2-opd-popup": "^1.1.21",
+    "ngx-alerts": "^3.4.5",
     "ngx-materialize": "^6.1.3",
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.5.1",
