@@ -12,6 +12,16 @@
     font-size: 13px;
     background: #ddd;
 }
+.footerMenu{
+    padding: 10px;
+    cursor: pointer;
+}
+.footerMenu:hover{
+    color: #2168f3;
+}
+.footerMenu:focus{
+    outline: 0px;
+}
 .FooterTitle{
     font-size: 22px;
     font-weight: 300;

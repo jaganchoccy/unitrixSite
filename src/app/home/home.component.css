@@ -6,15 +6,38 @@
 h4,h5{
     font-weight: 300;
 }
+.typestyle{
+    
+    font-weight: 300;
+    color:#2168f3;
+}
+
+.textcenter{
+    display: flex;
+    margin: 0 19% 2px 26%;
+    position: absolute;
+    margin-top: -13px;
+    z-index: -1;
+}
+
+.Innovation{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #222222;
+    font-size: 15px;
+    margin-bottom: 18px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
 .qoutes{
     font-weight: 300;
     font-size: 23px;
     letter-spacing: 1px;
-    padding: 0 233px;
+    padding-bottom: 6px;
 }
 #logo{
-    width: 32%;
-    margin-top: 14%;
+    width: 30%;
+    margin-top: 8%;
 }
 .serviceB:focus{
     outline: none
@@ -69,6 +92,9 @@ p{
     text-align: center;
     margin-left: 26% !important;
 }
+.home-main{
+    margin-top: 62px;
+}
 .serviceB > p {
     padding: 5px 4px 8px 4px;
     letter-spacing: 0.2px;
@@ -78,4 +104,24 @@ p{
     box-shadow: 0 0 0 0px rgba(0,0,0,.15), 0 3px 4px rgba(0,0,0,.2);
     transition: box-shadow 83ms;
     cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    #logo{
+        width: 60%;
+    }
+    .qoutes{
+        font-size: 14px;
+        padding: 0px 10px !important;
+    }
+    .mobileBtn{
+        margin-top: 8px;
+    }
+    .mobileBtn .uniRedBtn{
+        font-size: 10px !important;
+    padding: 7px 15px;
+    }
+    .mobileWE{
+        display: inline-block;
+    }
+    
 }

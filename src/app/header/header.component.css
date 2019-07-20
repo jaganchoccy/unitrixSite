@@ -113,3 +113,50 @@
     position: absolute;
     width: 6%;
 }
+.deskImg{
+    z-index: 1;
+    width: 4%;
+    padding-top: 17px;
+}
+.logoImg{
+    position: fixed;
+    left: 15px;
+}
+@media only screen and (max-width: 600px){
+    .mobile{
+        padding: 0px;
+        margin-top: 4px;
+    }
+    .mobHead{
+        padding: 8px 4px 0 10px;
+        font-weight: 300;
+    }
+    .logoImg{
+        width: 11%;
+        position: absolute;
+        left: 15px;
+        top:0px;
+    }
+    #logo{
+        padding-top: 10px !important;
+        width: 9% !important;
+        float: left;
+        margin: unset;
+    }
+    #mobile{
+        padding: 6px 18px;
+        float: right;
+        margin-right: 3px;
+       
+        line-height: 14px;
+    }
+    .mobile-head .s2{
+        margin-right: 1px !important;
+    }
+    .mobileHeader{
+        
+        margin-bottom: 0px;
+        padding-top: 9px;
+       
+    }
+}

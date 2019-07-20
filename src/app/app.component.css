@@ -1,3 +1,8 @@
+.deskImg{
+    z-index: 1;
+    width: 4%;
+    padding-top: 17px;
+}
 .helpBtn{
     background: #2168f3;
     color: #fff;
@@ -5,4 +10,25 @@
     cursor: pointer;
     bottom: 15px;
     right: 10px;
+}
+
+
+.logoImg{
+    position: fixed;
+    left: 7px;
+}
+mz-sidenav-link span{
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+}
+
+@media only screen and (max-width: 600px){
+    .logoImg{
+        width: 11%;
+        position: absolute;
+        left: 15px;
+        top:0px;
+    }
 }

@@ -59,3 +59,7 @@ p,h1,h2,h3,h4,h5{
     text-align: center;
     margin-left: 42% !important;
 }
+
+@media only screen and (max-width: 600px){
+    
+}
