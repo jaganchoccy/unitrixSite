@@ -4,12 +4,12 @@
     padding-top: 17px;
 }
 .helpBtn{
+    bottom: 3%;
     background: #2168f3;
     color: #fff;
     position: fixed;
     cursor: pointer;
-    bottom: 15px;
-    right: 10px;
+    right: 1.5%;
 }
 
 

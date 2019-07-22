@@ -7,7 +7,6 @@ import { AngularFirestore } from 'angularfire2/firestore';
 import { environment } from '../environments/environment';
 
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -30,7 +29,12 @@ import { FooterComponent } from './footer/footer.component';
 import { StartedComponent } from './started/started.component';
 
 
-
+import { CarouselModule } from 'ngx-carousels';
+import { WebDevComponent } from './web-dev/web-dev.component';
+import { AppDevComponent } from './app-dev/app-dev.component';
+import { MobDevComponent } from './mob-dev/mob-dev.component';
+import { DesAppComponent } from './des-app/des-app.component';
+import { SeoDevComponent } from './seo-dev/seo-dev.component';
 
 
 @NgModule({
@@ -45,14 +49,19 @@ import { StartedComponent } from './started/started.component';
     TypingAnimationDirective,
     FooterComponent,
     StartedComponent,
+    WebDevComponent,
+    AppDevComponent,
+    MobDevComponent,
+    DesAppComponent,
+    SeoDevComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    
     ReactiveFormsModule,
     MzSwitchModule,
     AppRoutingModule,
+    CarouselModule,
     BrowserAnimationsModule,
     MzSidenavModule,
     MzNavbarModule,

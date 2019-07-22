@@ -1,0 +1,25 @@
+.our{
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.9em;
+    margin-bottom: 30px;
+}
+.line::after{
+    margin-top: 10%;
+    left: 0px;
+}
+.UIimg{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    -moz-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    -ms-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    -o-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+}
+.clientName{
+    font-weight: 900;
+    color: black;
+    padding: 15px 0;
+}

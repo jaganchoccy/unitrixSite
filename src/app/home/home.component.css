@@ -57,9 +57,26 @@ p{
     word-spacing: 2px;
 }
 
+.why{
+    color: #222222;
+    font-size: 30px;
+    line-height: 1.3em;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 32px;
+    border-right: 2px solid #fa7400;
+}
 
+
+.whytxt{
+    color: #555555;
+    padding-left: 75px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 1.9em;
+}
 .weBtn{
-    padding: 8px 11px;
+    padding: 8px 10px;
     border-radius: 50%;
     color: #fff;
     margin-right: 2%;
@@ -74,23 +91,23 @@ p{
     border: 1px solid #d1d1d1;
     border-radius: 4px;
     width: 30% !important;
-    min-height: 210px;
-    max-height: 210px;
+    min-height: 225px;
+    max-height: 225px;
     margin-left: 28px !important;
 }
 .Row2 > .serviceB{
-    min-height: 165px;
-    max-height: 165px;
+    min-height: 180px;
+    max-height: 180px;
     margin: 4% 0;
 }
 .Ser{
     margin-top: -10px !important;
-    width: 55%;
+    width: 70%;
     background: #fff;
     font-weight: 400;
     margin-bottom: 2% !important;
     text-align: center;
-    margin-left: 26% !important;
+    margin-left: 15% !important;
 }
 .home-main{
     margin-top: 62px;

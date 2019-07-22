@@ -12,6 +12,9 @@
     font-size: 13px;
     background: #ddd;
 }
+li:focus{
+    outline: 0px;
+}
 .footerMenu{
     padding: 10px;
     cursor: pointer;

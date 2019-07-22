@@ -12,6 +12,13 @@
     margin-right: 8px;
     margin-bottom: 1%;
 }
+
+ul{
+    margin: 0px;
+}
+li{
+    margin-bottom: 8px;
+}
 .teamTITLE {
     font-weight: 400;
 }
