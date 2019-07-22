@@ -56,14 +56,27 @@ p,h1,h2,h3,h4,h5{
 .clientName{
     color:#00c3ff;
 }
+.fa-cloud,.fa-handshake{
+    color:#00c3ff;
+}
 .carouselTxt{
     height: 100%;
-    background: #f5f5f5;
+    background: #fafafa;
     border: 1px solid #eee;
     border-radius: 4px;
     letter-spacing: .2px;
     padding: 10px;
     color: #5f5f65;
+}
+.dropdown-content{
+    border-radius: 4px !important;
+}
+.dropdown-content li>a{
+    line-height: 30px !important;
+    padding: 10px 16px !important;
+}
+.dropdown-content li>span,.dropdown-content li>a{
+    color: #222222 !important;
 }
 .line{
     position: relative;
@@ -141,7 +154,12 @@ p,h1,h2,h3,h4,h5{
     border: 2px solid #eee;
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
+.dropdown-content > li{
+    color: #2168f3 !important;
+}
 
 @media only screen and (max-width: 600px){
-    
+    .mobilepaddz{
+        padding: 0px !important;
+    }
 }

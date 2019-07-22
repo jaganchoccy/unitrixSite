@@ -33,9 +33,12 @@
 }
 .navName:hover{
     cursor: pointer;
+    color: rgba(0,0,0,0.87);
+    font-weight: 600;
 }
 .TextBold{
-    color: #2168f3;
+    color: rgba(0,0,0,0.87);
+    font-weight: 600;
 }
 .ServiceData{
     display: none;
@@ -96,6 +99,7 @@
     height: 0;
     border-style: solid;
 }
+
 
 
 /* this border color controlls the color of the triangle (what looks like the fill of the triangle) */

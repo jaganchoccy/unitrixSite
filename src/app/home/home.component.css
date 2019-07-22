@@ -140,5 +140,18 @@ p{
     .mobileWE{
         display: inline-block;
     }
+    .floatText{
+        left: 0px;
+    }
+    .webContent{
+        padding: 0px;
+    }
+    .border{
+        border: unset;
+        margin: 0px;
+    }
+    .at{
+        padding: 0px;
+    }
     
 }

@@ -19,48 +19,40 @@
   
   <div class="col s9 headerContent" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
     <span class="navName"  routerLink="/home" routerLinkActive="TextBold">Home</span>
-    
-    <div class="headerService" style="display: inline-flex">
-      <span class="navName">Services
-        <div class="row ServiceData">
-         <!-- service start -->
-         <div class="row">
-           <div class="col s4 content left-align" routerLink="/UI-Development">
-             <span style="font-weight: 500;"><i class="fas fa-palette" style="color:#039be5"></i> &nbsp;UI/UX Development</span>
-              <p class="headService">We develope a stylish and colourful static / Dynamic website(Responsive) using <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a>, <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3">CSS3</a>,  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> and <a href="https://wordpress.com/"> wordpress</a></p>
-            </div>
-            <div class="col s4 content left-align" routerLink="/App-Development">
-              <span style="font-weight: 500;"><i class="fas fa-seedling"  style="color:#1aa93a"></i> &nbsp;Application Development</span>
-               <p class="headService">Our team worked with Latest Technology (<a href="https://nodejs.org/en/">NodeJS</a> ,Python AI/MI, WebPack, Bower, Babel and Testing) and Frameworks (<a href="https://angular.io/">Angular</a>/<a href="https://reactjs.org/">React</a>/<a href="https://vuejs.org/">Vue</a>/<a href="https://www.djangoproject.com/">Django Python</a>).</p>
-             </div>
-             <div class="col s4 content left-align" routerLink="/Desktop-Development">
-              <span style="font-weight: 500;"><i class="fas fa-laptop-code"  style="color:#ff833b"></i> &nbsp;Desktop Application</span>
-               <p class="headService">we provide a desktop application for all platform, here we use <a href="https://electronjs.org/">Electron</a> application in all platform ,we include <a href="https://www.google.com/search?q=js+frameworks&rlz=1C1CHBF_enIN844IN844&oq=JS+frame&aqs=chrome.0.0j69i57j0l4.4660j1j7&sourceid=chrome&ie=UTF-8">JS framework</a>.</p>
-             </div>
-         </div>
-         <div class="row">
-          <div class="col s4 content left-align" routerLink="/Mobile-Development">
-            <span style="font-weight: 500;"><i class="fas fa-mobile-alt"  style="color:#dc13cb"></i> &nbsp;Mobile Development</span>
-             <p class="headService">We create a app for All platform, because of cost and time problem, so we provide a Hybrid Mobile Application using <a href="https://ionicframework.com/">Ionic</a> Framework and Google <a href="https://flutter.dev/">Flutter</a> (Dart language). </p>
-           </div>
-           <div class="col s4 content left-align" routerLink="/Photo-Outsourcing">
-            <span style="font-weight: 500;"><i class="fas fa-camera-retro"  style="color:#c21508"></i>&nbsp;PhotoOutSourcing</span>
-             <p class="headService">We provide Consistent image output with quick turnaround time. tools like <a href="https://www.adobe.com/products/photoshop.html ">Adobe Photoshop</a>, Photoshop CC, Lightroom CC, Lightroom Classic, Ptgui for image stitching.</p>
-           </div>
-           <div class="col s4 content left-align" routerLink="/seo">
-            <span style="font-weight: 500;"><i class="fas fa-globe-americas"  style="color:#5937a7"></i> &nbsp;SEO</span>
-             <p class="headService">Our SEO Services.We have planned strategy and protocol which will be followed to give our clients website top slot in the Search Engine.</p>
-           </div>
-        </div>
-          <!-- service end -->
-        </div>
-      </span>
-      
-    </div>
-   
-    <span class="navName disabled" routerLink="/Portfolio" routerLinkActive="TextBold">Portfolio</span>
-    <span class="navName" routerLink="/Photo-Outsourcing" routerLinkActive="TextBold">PhotoZing</span>
-    <span class="navName" routerLink="/team" routerLinkActive="TextBold">Contact Us</span>   
+
+    <mz-dropdown
+  [id]="'ServiceDowndropdown'"
+  [align]="'left'"
+  [belowOrigin]="true"
+  [constrainWidth]="false"
+  [dropdownButtonId]="'ServiceDown'"
+  [gutter]="-70"
+  [hover]="true"
+  [inDuration]="300"
+  [outDuration]="300"
+  [stopPropagation]="true"
+>
+  <mz-dropdown-item><a routerLink="/Cloud">- UX/UI Design</a></mz-dropdown-item>
+  <mz-dropdown-divider></mz-dropdown-divider>
+  <mz-dropdown-item><a routerLink="/Cloud">- Application Development</a></mz-dropdown-item>
+  <mz-dropdown-divider></mz-dropdown-divider>
+  <mz-dropdown-item><a routerLink="/Cloud">- Mobile Development</a></mz-dropdown-item>
+  <mz-dropdown-divider></mz-dropdown-divider>
+  <mz-dropdown-item><a routerLink="/Cloud">- Desktop Application</a></mz-dropdown-item>
+  <mz-dropdown-divider></mz-dropdown-divider>
+  <mz-dropdown-item><a routerLink="/Cloud">- Photo-Outsourcing</a></mz-dropdown-item>
+  <mz-dropdown-divider></mz-dropdown-divider>
+  <mz-dropdown-item><a routerLink="/Cloud">- SEO/Digital Marketing</a></mz-dropdown-item>
+  
+</mz-dropdown>
+
+
+
+    <span class="navName Servicebar" id="ServiceDown"><i class="fas fa-handshake"></i>  Services</span>
+    <span class="navName"  routerLink="/Portfolio" routerLinkActive="TextBold">Portfolio</span>
+    <span class="navName"  routerLink="/Photo-Outsourcing" routerLinkActive="TextBold">PhotoZing</span>
+    <span class="navName"  routerLink="/Cloud" routerLinkActive="TextBold"><i class="fas fa-cloud"></i> Cloud</span>
+    <span class="navName"  routerLink="/team" routerLinkActive="TextBold">Contact Us</span>   
   </div>
   
   <div class="col s2 topmar">

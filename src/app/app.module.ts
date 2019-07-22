@@ -15,7 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MzSidenavModule,MzButtonModule,MzSwitchModule,MzCollapsibleModule, MzTooltipModule,MzNavbarModule, MzModalModule , MzSelectModule } from 'ngx-materialize';
+import { MzDropdownModule,MzSidenavModule,MzButtonModule,MzSwitchModule,MzCollapsibleModule, MzTooltipModule,MzNavbarModule, MzModalModule , MzSelectModule } from 'ngx-materialize';
 
 import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -35,6 +35,7 @@ import { AppDevComponent } from './app-dev/app-dev.component';
 import { MobDevComponent } from './mob-dev/mob-dev.component';
 import { DesAppComponent } from './des-app/des-app.component';
 import { SeoDevComponent } from './seo-dev/seo-dev.component';
+import { CloudComponent } from './cloud/cloud.component';
 
 
 @NgModule({
@@ -54,6 +55,7 @@ import { SeoDevComponent } from './seo-dev/seo-dev.component';
     MobDevComponent,
     DesAppComponent,
     SeoDevComponent,
+    CloudComponent,
   ],
   imports: [
     BrowserModule,
@@ -69,7 +71,7 @@ import { SeoDevComponent } from './seo-dev/seo-dev.component';
     MzSelectModule,
     MzModalModule,
     AngularFireModule.initializeApp(environment.firebase, 'unitrix'),
-    
+    MzDropdownModule,
     MzButtonModule,
     MzTooltipModule,
     ParticlesModule
