@@ -102,6 +102,15 @@ p,h1,h2,h3,h4,h5{
     height: 3px;
     background-color: #fa7400;
 }
+.one{
+    width: 42% !important;
+}
+.two{
+    width: 29% !important;
+}
+.three{
+    width: 29% !important;
+}
 .subHead{
     position: relative;
     color: #fa7400;
@@ -109,7 +118,7 @@ p,h1,h2,h3,h4,h5{
     font-weight: 500;
     line-height: 1.4em;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
     text-transform: uppercase;
 }
 .floatText span{
