@@ -1,0 +1,28 @@
+.our{
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+}
+.line::after{
+    margin-top: 13%;
+    left: 0px;
+}
+.UIimg{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    -moz-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    -ms-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    -o-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.20);
+}
+.clientName{
+    font-weight: 900;
+    color: black;
+    padding: 15px 0;
+}

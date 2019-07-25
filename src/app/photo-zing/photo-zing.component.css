@@ -2,7 +2,15 @@
     font-family: 'Aclonica';
     text-align: center;
     font-size: 30px;
-    padding-top: 15%;
+    padding-top: 20%;
+    color: #fff;
+}
+.zingimg{
+  position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    top: 0;
 }
 .quality h2{
     font-size: 2rem;
@@ -49,7 +57,9 @@ ul li:hover {
     letter-spacing: 1px;
     padding: 0 40px;
 }
-
+.letter-spacing{
+  color: #fff;
+}
 .roww{
     display: -ms-flexbox; /* IE10 */
     display: flex;
