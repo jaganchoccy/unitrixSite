@@ -2,11 +2,13 @@
 <particles [style]="style" [width]="width" [height]="height" [params]="Params"></particles>
 
 
-<div class="row qoutes left">
-    <div class="col s5" style=" padding-top: 15%;">
-        <img  src="../../assets/images/my-logo.png" id="logo">
+
+<div class="row qoutes left" style="margin-top: 62px;">
+    <div class="col l5 s12" style=" padding-top: 15%;">
+        <img src="../../assets/images/my-logo.png" id="logo">
     </div>
-    <div class="col s7">
+    
+    <div class="col l7 s12">
         <div class="teamContent"><i class="fas fa-globe-americas"></i><span class="teamTITLE">Our Vision</span>
             <div>Pigment the dazzling destination to trade engaging on digital outlook.</div>
         </div>
@@ -14,12 +16,125 @@
         <div class="teamContent"><i class="fas fa-chart-line"></i><span class="teamTITLE">Our Mission</span>
         <div>Entrust contemporary and innovative web and mobile software solution to business varying from startups to enterprise with affordability and contentment.</div>
         </div>
-
+ <div class="floatText" style="right:3% !important;left: unset;">T<span></span></div>
         <div class="teamContent"><i class="fa fa-users shuu" aria-hidden="true"></i><span class="teamTITLE">Our Team</span>
         <div>Our web and mobile software engineers are engaged with customers and commercial teams to deliver the prime element with market correspondence. In due course, we have devised eminently conductive and collaborative development and working atmosphere using the trending architectural facilities and communication technologies. Hence, our customers sense ultimate amenity despite language, culture, and time zone hurdles.</div>
         </div>
-    </div>
-    
+    </div>  
 </div>
 
+
+
+
+ 
+<div class="row center">
+    <img src="../../assets/images/careers-bg.png" class="mobileimgT" style="padding-top: 8%;">
+</div>
+
+<div class="row" style="padding-top: 4%;">
+    <div class="col l1"></div>
+    <div class="col l4 s12">
+        <div class="row">
+                <p class="styleTxt">Unitrix</p>
+                <ul class="icon">
+                    <li>
+                        <div>
+                        <img class="Myavatar" src="../../assets/images/jaganRamanikanth.png">
+                        </div>
+
+                    </li>
+                    <li class="name">Jagan R</li>
+                    <li><i class="fas fa-address-book"></i><b>Mobile :</b> (+91) 894-041-7854</li>
+                    <li><i class="fas fa-mail-bulk"></i><b>Email :</b> jaganramanikanth@gmail.com</li>
+                  </ul>
+        </div>
+        <div class="row">
+                <p class="styleTxt ">PhotoZing</p>
+                <ul class="icon">
+                    <li>
+                        <div>
+                        <img class="Myavatar" src="../../assets/images/DK.jpeg">
+                        </div>
+                        
+                    </li>
+                    <li class="name">Dhanush Kodi</li>
+                    <li><i class="fas fa-address-book"></i><b>Mobile :</b> (+91) 962-977-7100</li>
+                    <li><i class="fas fa-mail-bulk"></i><b>Email :</b> dhanushkodi95@gmail.com</li>
+                  </ul>
+        </div>
+    </div>
+    <div class="col l6 s12">
+    <div class="card" style="padding: 12px 10px;
+    border-radius: 4px;">
+        <h5 class="center" style="font-weight: 300;">Get in touch with us</h5>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="col s6">
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                    <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                </div>
+            </div>
+        </div>
+        <div class="col s6">
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                    <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                </div>
+            </div>
+        </div>
+        
+                    <div class="form-group col s12">
+                        <label>Email</label>
+                        <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                            <div *ngIf="f.email.errors.required">Email is required</div>
+                            <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                        </div>
+                    </div>
+                    <div class="form-group col s12">
+                        <mz-select-container>
+                            <select mz-select
+                            formControlName="select" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.select.errors }"
+                              id="options-select"
+                              [placeholder]="'......'"
+                              [label]="'Choose Your Service'">
+                              
+                                    <option value="1">Web Development</option>
+                                    <option value="2">Desktop Application</option>
+                                    <option value="3">Mobile Apps</option>
+                                    <option value="4">Search Engine Optimization</option>
+                                    <option value="5">Photo outsourcing</option>
+                                    <option value="6">Ecommerce</option>
+                                    <option value="7">Digital marketing</option>
+                                    <option value="8">UI/Wordpress</option>
+                              
+                            </select>
+                          </mz-select-container>
+                          <div *ngIf="submitted && f.select.errors" class="invalid-feedback">
+                              <div *ngIf="f.select.errors.required">Service is required</div>
+                          </div>
+                    </div>
+
+                    <div class="form-group col s12">
+                        <label>Your Message</label>
+                        <input type="text" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                            <div *ngIf="f.password.errors.required">Message is required</div>
+                            <div *ngIf="f.password.errors.minlength">Message must be at least 10 characters</div>
+                        </div>
+                    </div>
+                    <div class="form-group center">
+                        <button [disabled]="loading" class="uniRedBtn" style="line-height: 0px;
+                        padding: 17px 27px;">Submit</button>
+                    </div>
+                </form>
+      </div> 
+    </div>
+    <div class="col l1"></div>
+    
+</div>
 

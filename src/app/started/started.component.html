@@ -1,0 +1,78 @@
+<div class="row started" style="padding-top:8%">
+    <div class="col l1"></div> 
+    <div class="col l4 s12">
+        <h3>Submit Your Requirement</h3>
+        <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quas esse adipisci sapiente ad asperiores doloremque</h6>
+        <img src="../../assets/images/image.jpg" style="width: 100%;">
+    </div>
+  
+  <div class="col l6 s12" style="">
+           <h4 class="center" style="padding-bottom: 5%;font-weight: 300;color: #919293;">Enter the Details..</h4>
+           <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+              <div class="col s6">
+                  <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                      <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                          <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s6">
+                  <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                      <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                          <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                      </div>
+                  </div>
+              </div>
+              
+                          <div class="form-group col s12">
+                              <label>Email</label>
+                              <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                  <div *ngIf="f.email.errors.required">Email is required</div>
+                                  <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                              </div>
+                          </div>
+                          <div class="form-group col s12">
+                              <mz-select-container>
+                                  <select mz-select
+                                  formControlName="select" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.select.errors }"
+                                    id="options-select"
+                                    [placeholder]="'......'"
+                                    [label]="'Choose Your Service'">
+                                    
+                                    <option value="1">Web Development</option>
+                                    <option value="2">Desktop Application</option>
+                                    <option value="3">Mobile Apps</option>
+                                    <option value="4">Search Engine Optimization</option>
+                                    <option value="5">Photo outsourcing</option>
+                                    <option value="6">Ecommerce</option>
+                                    <option value="7">Digital marketing</option>
+                                    <option value="8">UI/Wordpress</option>
+                                    
+                                  </select>
+                                </mz-select-container>
+                                <div *ngIf="submitted && f.select.errors" class="invalid-feedback">
+                                    <div *ngIf="f.select.errors.required">Service is required</div>
+                                </div>
+                          </div>
+      
+                          <div class="form-group col s12">
+                              <label>Your Message</label>
+                              <input type="text" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                              <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                                  <div *ngIf="f.password.errors.required">Message is required</div>
+                                  <div *ngIf="f.password.errors.minlength">Message must be at least 10 characters</div>
+                              </div>
+                          </div>
+                          <div class="form-group center">
+                              <button [disabled]="loading" class="uniRedBtn" style="line-height: 0px;
+                              padding: 17px 27px;">Submit</button>
+                          </div>
+                      </form>
+          </div>
+          <div class="col l1"></div> 
+</div>

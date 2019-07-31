@@ -1,3 +1,107 @@
-<p>
-  photo-zing works!
-</p>
+
+<div class="row s12">
+<img class="zingimg s12" src="../../assets/images/back.jpg">
+  <p id="zing">PhotoZing</p>
+  <span class="center letter-spacing"><h4 style="font-weight: 300;font-size: 25px;">When photography meets computer vision</h4>
+    <p>Get your photo & video shoots around the world in 24h</p></span>
+</div>
+
+<div class="row center"> <span class="uniRedBtn" (click)="bottomSheetModal.openModal()" >Order Now</span></div>
+
+<mz-modal #bottomSheetModal [fixedFooter]="true" [bottomSheet]="true" [options]="modalOptions">
+  <mz-modal-header>
+    
+  </mz-modal-header>
+  <mz-modal-content class="center-align">
+    <div class="row" style="text-align: -webkit-center;">
+      <p class="styleTxt">PhotoZing</p>
+      <ul class="icon">
+          <li>
+                        <div>
+                        <img class="Myavatar center-align" src="../../assets/images/DK.jpeg">
+                        </div>
+                    </li>
+                     <li class="name">Dhanush Kodi</li>
+                    <li><i class="fas fa-address-book"></i><b> Mobile :</b> (+91) 962-977-7100</li>
+                    <li><i class="fas fa-mail-bulk"></i><b> Email :</b> dhanushkodi95@gmail.com</li>
+        </ul>
+</div>
+  </mz-modal-content>
+  <mz-modal-footer>
+    
+    <button mz-button [flat]="true" mz-modal-close>Close</button>
+  </mz-modal-footer>
+</mz-modal>
+
+<div class="row quality center">
+  <h2>A tailor-made service -<span style="color: #44b3c6;"> simple</span> & <span style="color:#c3668a;"> effective</span> </h2>
+  <div class="col l4 s12">
+    <img class="Qimg" src="../../assets/images/zing/ico-photographers-rocket-shadow.svg">
+    <h5>Standardized Quality</h5>
+    <p class="center Qcontent">Our photographers are selected by our teams and benefit from continuous training to guarantee our standards of excellence</p>
+  </div>
+  <div class="col l4 s12">
+    <img class="Qimg" src="../../assets/images/zing/ico-photographers-diamond-shadow.svg">
+    <h5>In large scale</h5>
+    <p class="center Qcontent">With 40,000 professional photographers, we operate thousands of photo shoots daily in more than 100 countries</p>
+  </div>
+  <div class="col l4 s12">
+    <img class="Qimg" src="../../assets/images/zing/ico-photographers-time-shadow.svg">
+    <h5>Quick delivery</h5>
+    <p class="center Qcontent">We deliver your photos in 24h around the world</p>
+  </div>
+</div>
+
+<!-- services -->
+<div class="row border" style="margin-top: 12% !important;">
+  <h4 class="we">Services..</h4>
+  <div class="row">
+    <div class="col l4 s12 center">
+        <ul>
+            <li>HDR POST PROCESSING</li>
+            <li>SINGLE EXPOSURE PROCESSING</li>
+            <li>PHOTOSHOP RETOUCHING</li>
+            <li>ADD / REMOVE OBJECTS</li>
+          </ul>
+    </div>
+
+    <div class="col l4 s12 center">
+        <ul>
+            <li>360 DEGREE PANORAMA</li>
+            <li>FLOOR PLAN FROM SKETCH</li>
+            <li>TWILIGHT EDITING</li>
+            <li>VIRTUAL STAGING</li>
+            <li>IMAGE MASKING</li>
+          </ul>
+    </div>
+
+    <div class="col l4 s12 center">
+        <ul>
+            <li>CLIPPING FOR COMPLEX OBJECTS</li>
+            <li>CLIPPING PATH</li>
+            <li>BACKGROUND REMOVAL
+            <li>IMAGE SHADOW / MIRROR EFFECT</li>
+          </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row things hide-on-small-only">
+  <p class="center" style="font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 10% !important;">Things we do in Image Editing</p>
+  <p class="things">We always fulfill our promise of delivering the finished images in the expected turnaround time, as your time is important to us. With our high-performance processing tools, we help in reducing your efforts and resources, as we take care of enhancing the quality of your image and make it appealing to your buyers.</p>
+</div>
+
+  <!-- SECTORS -->
+  <div class="row hide-on-small-only" style="margin-top: 12% !important;">
+    <h4 class="we">Sectors..</h4>
+    <div class="row center" style="margin: 0 25%;">
+      <div class="col l2 s4">Real Estate</div>
+      <div class="col l2 s4">Food</div>
+      <div class="col l2 s4">Experiences</div>
+      <div class="col l2 s4">Ecommerce</div>
+      <div class="col l2 s4">Office</div>
+      <div class="col l2 s4">Retail</div>
+    </div>
+</div>

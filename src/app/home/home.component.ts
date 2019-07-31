@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { of } from 'rxjs/Observable/of';
+import Typed from 'typed.js';
 
 @Component({
   selector: 'app-home',
@@ -16,8 +17,19 @@ export class HomeComponent implements OnInit {
     height: number = 100;
  
     ngOnInit() {
+  //     const options = {
+  //       strings: [' Digital Marketing"','Branding Solutions"','Market Analysis"','Strategy"','Websites Designing"','Application Development"','Mobile/Desktop Apps"','VR/AR Development"','Photo Outsourcing"'],
+  //       typeSpeed: 100,
+  //       backSpeed: 20,
+  //       showCursor: true,
+  //       cursorChar: '_',
+  //       loop: true
+  //  };
+   
+   //const typed = new Typed('.typed-element', options);
+
         this.style = {
-            'position': 'fixed',
+            'position': 'absolute',
             'width': '100%',
             'height': '100%',
             'z-index': -1,
@@ -32,14 +44,14 @@ export class HomeComponent implements OnInit {
 			
         particles: {
           number: {
-              value: 30,
+              value: 10,
               "density": {
                 "enable": true,
                 "value_area": 1000
                   }
           },
           color: {
-              value: '#000000'
+              value: '#9e9e9e'
           },
           shape: {
               type: 'polygon',
@@ -52,13 +64,13 @@ export class HomeComponent implements OnInit {
             }},
            
           opacity:{
-              value: 1,
+              value: 0.5,
               "anim": {
                 "enable": false,
               }
           },
           move:{
-              speed: 2
+              speed: 3
           }, 
           size:{
               value:4

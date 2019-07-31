@@ -12,6 +12,26 @@
     margin-right: 8px;
     margin-bottom: 1%;
 }
+
+ul{
+    margin: 0px;
+}
+li{
+    margin-bottom: 8px;
+}
 .teamTITLE {
-    font-weight: 600;
+    font-weight: 400;
+}
+.teamContent > div{
+    font-weight: 300;
+}
+
+.icon .fas{
+    font-size: 15px;
+    color: rgb(157, 156, 156);
+}
+@media only screen and (max-width: 600px){
+.mobileimgT{
+    width: 70%;
+}
 }
