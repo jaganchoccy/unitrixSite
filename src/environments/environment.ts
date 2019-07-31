@@ -5,13 +5,12 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyD63_Bi6swQUgKT_JQUlCCHiG-lXf-btmI",
-    authDomain: "unitrix-tec.firebaseapp.com",
-    databaseURL: "https://unitrix-tec.firebaseio.com",
-    projectId: "unitrix-tec",
-    storageBucket: "unitrix-tec.appspot.com",
-    messagingSenderId: "515792541705",
-    appId: "1:515792541705:web:051e2d6f85fd74c6"
+    apiKey: "AIzaSyCng6WLQb7cAd2vG_T4XJiayx6EWN11OPE",
+    authDomain: "jagan-unitrix.firebaseapp.com",
+    databaseURL: "https://jagan-unitrix/.firebaseio.com",
+    projectId: "jagan-unitrix",
+    storageBucket: "jagan-unitrix.appspot.com",
+    messagingSenderId: "458336946738"
   }
 };
 

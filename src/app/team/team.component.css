@@ -30,3 +30,8 @@ li{
     font-size: 15px;
     color: rgb(157, 156, 156);
 }
+@media only screen and (max-width: 600px){
+.mobileimgT{
+    width: 70%;
+}
+}

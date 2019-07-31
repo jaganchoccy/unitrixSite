@@ -17,16 +17,16 @@ export class HomeComponent implements OnInit {
     height: number = 100;
  
     ngOnInit() {
-      const options = {
-        strings: [' Digital Marketing"','Branding Solutions"','Market Analysis"','Strategy"','Websites Designing"','Application Development"','Mobile/Desktop Apps"','VR/AR Development"','Photo Outsourcing"'],
-        typeSpeed: 100,
-        backSpeed: 20,
-        showCursor: true,
-        cursorChar: '_',
-        loop: true
-   };
+  //     const options = {
+  //       strings: [' Digital Marketing"','Branding Solutions"','Market Analysis"','Strategy"','Websites Designing"','Application Development"','Mobile/Desktop Apps"','VR/AR Development"','Photo Outsourcing"'],
+  //       typeSpeed: 100,
+  //       backSpeed: 20,
+  //       showCursor: true,
+  //       cursorChar: '_',
+  //       loop: true
+  //  };
    
-   const typed = new Typed('.typed-element', options);
+   //const typed = new Typed('.typed-element', options);
 
         this.style = {
             'position': 'absolute',

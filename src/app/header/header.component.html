@@ -7,17 +7,21 @@
     
 
 
-<div class="row header hide-on-med-and-down" id="headerScroll">
+<div class="row header" id="headerScroll">
   
+
+
+
   <div class="col s1">
-    <img src="../../assets/images/logo.png" id="btn-sidenav-demo" class="logoImg deskImg">
+  <img src="../../assets/images/logo.png" routerLink="/home" id="btn-sidenav-demo" class="logoImg deskImg">
+    
   </div>
 
 
 
   <!-- end -->
   
-  <div class="col s9 headerContent" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+  <div class="col l9 s11 headerContent" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
     <span class="navName"  routerLink="/home" routerLinkActive="TextBold">Home</span>
 
     <mz-dropdown
@@ -48,13 +52,13 @@
 
 
 
-    <span class="navName Servicebar" style="padding-bottom: 25px;" id="ServiceDown"><i class="fas fa-handshake"></i>  Services <i class="fas fa-angle-down"></i></span>
-    <span class="navName"  routerLink="/Portfolio" routerLinkActive="TextBold">Portfolio</span>
-    <span class="navName"  routerLink="/Cloud" routerLinkActive="TextBold"><i class="fas fa-cloud"></i> Cloud</span>
-    <span class="navName"  routerLink="/team" routerLinkActive="TextBold">Contact Us</span>   
+    <span class="navName Servicebar" style="padding-bottom: 25px;" id="ServiceDown">Services <i class="fas fa-angle-down"></i></span>
+    <span class="navName hide-on-small-only"  routerLink="/Portfolio" routerLinkActive="TextBold">Portfolio</span>
+    <span class="navName hide-on-small-only"  routerLink="/Cloud" routerLinkActive="TextBold"><i class="fas fa-cloud"></i> Cloud</span>
+    <span class="navName "  routerLink="/team" routerLinkActive="TextBold">Team</span>   
   </div>
   
-  <div class="col s2 topmar">
+  <div class="col s2 topmar hide-on-small-only">
     <span class="uniRedBtn" routerLink="/Get-started">Get Quote <i class="fas fa-arrow-right"></i></span>
   </div>
 </div>

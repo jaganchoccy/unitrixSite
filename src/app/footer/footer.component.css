@@ -12,6 +12,9 @@
     font-size: 13px;
     background: #ddd;
 }
+.footer li:hover{
+    color: #2168f3;
+}
 li:focus{
     outline: 0px;
 }
@@ -26,7 +29,7 @@ li:focus{
     outline: 0px;
 }
 .FooterTitle{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
 }
 li{
@@ -37,4 +40,10 @@ li{
 }
 li:hover{
     font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){
+.mobilepaddz{
+    padding-top: 8px !important;
+}
 }

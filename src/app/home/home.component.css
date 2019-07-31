@@ -14,7 +14,6 @@ h4,h5{
 
 .textcenter{
     display: flex;
-    margin: 0 19% 2px 26%;
     position: absolute;
     margin-top: -13px;
     z-index: -1;
@@ -35,8 +34,24 @@ h4,h5{
     letter-spacing: 1px;
     padding-bottom: 6px;
 }
+.mydot{
+    height: 10px;
+    width: 10px;
+    background-color: #daaf12;
+    border-radius: 50%;
+    margin-right: 6px;
+    display: inline-block;
+}
+.provideService .row{
+    margin: 0px;
+}
+.ss{
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    padding: 6px;
+}
 #logo{
-    width: 30%;
+    width: 70%;
     margin-top: 8%;
 }
 .serviceB:focus{
@@ -46,7 +61,7 @@ p{
     font-weight: 300;
 }
 .at{
-    padding: 0 11rem;
+    padding: 0 10%;
     font-size: 15px;
 }
 .webContent{
@@ -87,13 +102,17 @@ p{
     font-weight: 300;
     padding-top: 6px;
 }
+.Row2 .col.l4{
+    width: 31%;
+    margin: 0 1.16% !important;
+}
+.Row1 .col.l4{
+    width: 31%;
+    margin: 0 1.1% !important;
+}
 .serviceB{
     border: 1px solid #d1d1d1;
     border-radius: 4px;
-    width: 30% !important;
-    min-height: 225px;
-    max-height: 225px;
-    margin-left: 28px !important;
 }
 .Row2 > .serviceB{
     min-height: 180px;
@@ -116,6 +135,9 @@ p{
     padding: 5px 4px 8px 4px;
     letter-spacing: 0.2px;
     word-spacing: 1px;
+}
+.design{
+    padding-top: 6px;
 }
 .serviceB:hover{
     box-shadow: 0 0 0 0px rgba(0,0,0,.15), 0 3px 4px rgba(0,0,0,.2);
@@ -148,10 +170,21 @@ p{
     }
     .border{
         border: unset;
-        margin: 0px;
+        margin: 0px !important;
     }
     .at{
         padding: 0px;
+    }
+    .mobileC{
+        padding: 12px 18px;
+    }
+    .Row2 .col.l4{
+        width: inherit;
+        margin: inherit;
+    }
+    .Row1 .col.l4{
+        width: inherit;
+        margin: inherit;
     }
     
 }

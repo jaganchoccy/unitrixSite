@@ -120,10 +120,11 @@
 .deskImg{
     z-index: 1;
     width: 4%;
-    padding-top: 17px;
+    padding: 18px 0px;
 }
 .logoImg{
     position: fixed;
+    cursor: pointer;
     left: 15px;
 }
 @media only screen and (max-width: 600px){
