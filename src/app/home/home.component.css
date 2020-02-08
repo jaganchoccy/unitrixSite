@@ -1,190 +1,201 @@
-.imgtop{
-    margin-top: 11% !important;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+.imgtop {
+  margin-top: 11% !important;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
 }
-h4,h5{
-    font-weight: 300;
+h4,
+h5 {
+  font-weight: 300;
 }
-.typestyle{
-    
-    font-weight: 300;
-    color:#2168f3;
-}
-
-.textcenter{
-    display: flex;
-    position: absolute;
-    margin-top: -13px;
-    z-index: -1;
+.typestyle {
+  font-weight: 300;
+  color: #2168f3;
 }
 
-.Innovation{
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #222222;
-    font-size: 15px;
-    margin-bottom: 18px;
-    font-weight: 300;
-    line-height: 1.4em;
-}
-.qoutes{
-    font-weight: 300;
-    font-size: 23px;
-    letter-spacing: 1px;
-    padding-bottom: 6px;
-}
-.mydot{
-    height: 10px;
-    width: 10px;
-    background-color: #daaf12;
-    border-radius: 50%;
-    margin-right: 6px;
-    display: inline-block;
-}
-.provideService .row{
-    margin: 0px;
-}
-.ss{
-    font-size: 12px;
-    letter-spacing: 1.2px;
-    padding: 6px;
-}
-#logo{
-    width: 70%;
-    margin-top: 8%;
-}
-.serviceB:focus{
-    outline: none
-}
-p{
-    font-weight: 300;
-}
-.at{
-    padding: 0 10%;
-    font-size: 15px;
-}
-.webContent{
-    padding: 0 14rem;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0px;
-    word-spacing: 2px;
+.textcenter {
+  display: flex;
+  position: absolute;
+  margin-top: -13px;
+  z-index: -1;
 }
 
-.why{
-    color: #222222;
-    font-size: 30px;
-    line-height: 1.3em;
-    font-weight: 600;
-    text-align: right;
-    padding-right: 32px;
-    border-right: 2px solid #fa7400;
+.Innovation {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #222222;
+  font-size: 15px;
+  margin-bottom: 18px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+.qoutes {
+  font-weight: 300;
+  font-size: 23px;
+  letter-spacing: 1px;
+  padding-bottom: 6px;
+}
+.mydot {
+  height: 10px;
+  width: 10px;
+  background-color: #daaf12;
+  border-radius: 50%;
+  margin-right: 6px;
+  display: inline-block;
+}
+.provideService .row {
+  margin: 0px;
+}
+.provideService .col {
+  font-size: 1vw;
+}
+.ss {
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  padding: 6px;
+}
+#logo {
+  width: 70%;
+  margin-top: 8%;
+}
+.serviceB:focus {
+  outline: none;
+}
+p {
+  font-weight: 300;
+}
+.at {
+  padding: 0 10%;
+  font-size: 15px;
+}
+.webContent {
+  padding: 0 14rem;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  word-spacing: 2px;
 }
 
+.why {
+  color: #222222;
+  font-size: 30px;
+  line-height: 3.3em;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 32px;
+  border-right: 2px solid #fa7400;
+}
 
-.whytxt{
-    color: #555555;
-    padding-left: 75px;
-    letter-spacing: 0.2px;
-    font-size: 14px;
-    line-height: 1.9em;
+.whytxt {
+  color: #555555;
+  padding: 0 3vw;
+  letter-spacing: 0.2px;
+  font-size: 1.2em;
+  line-height: 1.9em;
 }
-.weBtn{
-    padding: 8px 10px;
-    border-radius: 50%;
-    color: #fff;
-    margin-right: 2%;
+.weBtn {
+  padding: 8px 10px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 2%;
 }
-.weContent{
-    color: #818188;
-    word-spacing: 2px;
-    font-weight: 300;
-    padding-top: 6px;
+.weContent {
+  color: #818188;
+  word-spacing: 2px;
+  font-weight: 300;
+  padding-top: 6px;
 }
-.Row2 .col.l4{
-    width: 31%;
-    margin: 0 1.16% !important;
+.Row2 .col.l4 {
+  width: 31%;
+  margin: 0 1.16% !important;
 }
-.Row1 .col.l4{
-    width: 31%;
-    margin: 0 1.1% !important;
+.Row1 .col.l4 {
+  width: 31%;
+  margin: 0 1.1% !important;
 }
-.serviceB{
-    border: 1px solid #d1d1d1;
-    border-radius: 4px;
+.serviceB {
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
 }
-.Row2 > .serviceB{
-    min-height: 180px;
-    max-height: 180px;
-    margin: 4% 0;
+.Row2 > .serviceB {
+  min-height: 180px;
+  max-height: 180px;
+  margin: 4% 0;
 }
-.Ser{
-    margin-top: -10px !important;
-    width: 70%;
-    background: #fff;
-    font-weight: 400;
-    margin-bottom: 2% !important;
-    text-align: center;
-    margin-left: 15% !important;
+.Ser {
+  margin-top: -10px !important;
+  width: 70%;
+  background: #fff;
+  font-weight: 400;
+  margin-bottom: 2% !important;
+  text-align: center;
+  margin-left: 15% !important;
 }
-.home-main{
-    margin-top: 62px;
+.home-main {
+  margin-top: 62px;
 }
 .serviceB > p {
-    padding: 5px 4px 8px 4px;
-    letter-spacing: 0.2px;
-    word-spacing: 1px;
+  padding: 5px 4px 8px 4px;
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
 }
-.design{
-    padding-top: 6px;
+.design {
+  padding-top: 6px;
 }
-.serviceB:hover{
-    box-shadow: 0 0 0 0px rgba(0,0,0,.15), 0 3px 4px rgba(0,0,0,.2);
-    transition: box-shadow 83ms;
-    cursor: pointer;
+.serviceB:hover {
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.15), 0 3px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 83ms;
+  cursor: pointer;
 }
-@media only screen and (max-width: 600px){
-    #logo{
-        width: 60%;
-    }
-    .qoutes{
-        font-size: 14px;
-        padding: 0px 10px !important;
-    }
-    .mobileBtn{
-        margin-top: 8px;
-    }
-    .mobileBtn .uniRedBtn{
-        font-size: 10px !important;
+.mobileC {
+  font-size: 1.2vw;
+  margin-bottom: 4% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    width: 60%;
+  }
+  .qoutes {
+    font-size: 14px;
+    padding: 0px 10px !important;
+  }
+  .mobileBtn {
+    margin-top: 8px;
+  }
+  .mobileBtn .uniRedBtn {
+    font-size: 10px !important;
     padding: 7px 15px;
-    }
-    .mobileWE{
-        display: inline-block;
-    }
-    .floatText{
-        left: 0px;
-    }
-    .webContent{
-        padding: 0px;
-    }
-    .border{
-        border: unset;
-        margin: 0px !important;
-    }
-    .at{
-        padding: 0px;
-    }
-    .mobileC{
-        padding: 12px 18px;
-    }
-    .Row2 .col.l4{
-        width: inherit;
-        margin: inherit;
-    }
-    .Row1 .col.l4{
-        width: inherit;
-        margin: inherit;
-    }
-    
+  }
+  .mobileWE {
+    display: inline-block;
+  }
+  .floatText {
+    left: 0px;
+  }
+  .webContent {
+    padding: 0px;
+  }
+  .border {
+    border: unset;
+    margin: 0px !important;
+  }
+  .at {
+    padding: 0px;
+  }
+  .mobileC {
+    padding: 12px 18px;
+    font-size: 0.9rem;
+  }
+  .Row2 .col.l4 {
+    width: inherit;
+    margin: inherit;
+  }
+  .Row1 .col.l4 {
+    width: inherit;
+    margin: inherit;
+  }
+  .why{
+    font-size: 28px;
+    line-height: 3rem;
+  }
 }
