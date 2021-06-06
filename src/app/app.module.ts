@@ -35,7 +35,7 @@ import { AppDevComponent } from './app-dev/app-dev.component';
 import { MobDevComponent } from './mob-dev/mob-dev.component';
 import { DesAppComponent } from './des-app/des-app.component';
 import { SeoDevComponent } from './seo-dev/seo-dev.component';
-import { CloudComponent } from './cloud/cloud.component';
+import { XploreComponent } from './xplore/xplore.component';
 
 
 @NgModule({
@@ -55,7 +55,7 @@ import { CloudComponent } from './cloud/cloud.component';
     MobDevComponent,
     DesAppComponent,
     SeoDevComponent,
-    CloudComponent,
+    XploreComponent,
   ],
   imports: [
     BrowserModule,

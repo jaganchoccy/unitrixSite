@@ -1,0 +1,118 @@
+.Xplore .place{
+   font-size: 25px;
+   color:#9ea2ac;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+.newPlace{
+   margin-left: 25%;
+}
+.app{
+    font-size: 55px;
+    color:black;
+    font-weight: 700;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+.app span{
+    color: #0a7428;
+}
+
+.subText{
+font-size: 13px;
+   color:#b8bbc5;
+   font-weight: 400;
+}
+
+.motivateTxt{
+   text-align: center;
+   padding: 20% 0px 20% 0px ;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+.motivateTxt span{
+   color: #0a7428;
+}
+.EmojiCard p{
+   font-weight: 300;
+   color: #9d9b9b;
+   padding-bottom: 3px;
+}
+.EmojiCard div{
+   font-weight: 500;
+}
+
+.EmojiCard{
+   background: #ffff;
+   position: absolute;
+   padding:18px 44px 17px 28px;
+   border-radius: 22px;
+   box-shadow: 1px 4px 18px #eee;
+}
+
+.card1{
+   top: 13%;
+   left: 17%;
+}
+
+ .card2{
+   top: 9%;
+   right:  15%;
+}
+ .card3{
+   top: 52%;
+    right: 9%;
+}
+ .card4{
+   bottom: 10%;
+   right: 42%;
+}
+ .card5{
+   top: 44%;
+   left:5%;
+}
+
+
+@media only screen and (max-width: 600px){
+   .newPlace{
+      margin-left: 13%;
+      padding-top: 5px !important;
+   }
+   .place{
+      font-size: 14px !important;
+   }
+   .app{
+      font-size: 33px;
+      padding-bottom: 5px !important;
+  }
+
+  .main{
+   padding: 36px 9px;
+  }
+
+  .cImg{
+   
+   width: 100% !important;
+   padding-top: 0px !important;
+   margin-left: 5% !important;
+  }
+
+  .motivateTxt {
+   padding: 5% 0px !important;
+   font-size: 16px;
+}
+
+  .EmojiCard{
+     position: relative !important;
+     left: 0px !important;
+     margin: 13px !important;
+     right: 0px !important;
+  }
+  
+  .subText{
+  font-size: 11px;
+     color:#b8bbc5;
+     font-weight: 400;
+  }
+}

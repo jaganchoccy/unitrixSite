@@ -11,7 +11,8 @@ import { MobDevComponent } from './mob-dev/mob-dev.component';
 import { SeoDevComponent } from './seo-dev/seo-dev.component';
 import { AppDevComponent } from './app-dev/app-dev.component';
 import { DesAppComponent } from './des-app/des-app.component';
-import { CloudComponent } from './cloud/cloud.component';
+import { XploreComponent } from './xplore/xplore.component';
+
 
 const routes: Routes = [
   {                              
@@ -32,8 +33,8 @@ const routes: Routes = [
     component: PortfolioComponent
   },
   {
-    path: 'Cloud',
-    component: CloudComponent
+    path: 'Xplore',
+    component: XploreComponent
   },
   {
     path: 'team',

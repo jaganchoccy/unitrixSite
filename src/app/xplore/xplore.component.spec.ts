@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CloudComponent } from './cloud.component';
+import { XploreComponent } from './xplore.component';
 
-describe('CloudComponent', () => {
-  let component: CloudComponent;
-  let fixture: ComponentFixture<CloudComponent>;
+describe('XploreComponent', () => {
+  let component: XploreComponent;
+  let fixture: ComponentFixture<XploreComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CloudComponent ]
+      declarations: [ XploreComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CloudComponent);
+    fixture = TestBed.createComponent(XploreComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
